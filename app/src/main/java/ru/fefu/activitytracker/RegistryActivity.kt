@@ -12,3 +12,4 @@ class RegistryActivity : AppCompatActivity() {
         onBackPressed()
     }
 }
+
