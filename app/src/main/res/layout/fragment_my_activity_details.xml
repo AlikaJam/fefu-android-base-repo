@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.MyActivityDetailsFragment">
-
+    tools:context=".tracker.MyActivityDetailsFragment">
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbarMy"
         android:layout_width="match_parent"
@@ -44,7 +43,7 @@
             android:layout_height="wrap_content"
             android:text="время"
             android:textColor="@color/gray2"
-            android:textSize="16sp" />
+            android:textSize="16sp"/>
         <TextView
             android:id="@+id/textMyTime"
             android:layout_width="match_parent"
@@ -53,7 +52,7 @@
             android:text="Время"
             android:textColor="@color/dark"
             android:textSize="24sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -82,7 +81,7 @@
                 android:layout_weight="0"
                 android:text="|"
                 android:textColor="@color/gray2"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -111,6 +110,4 @@
                 android:hint="@string/text_comments" />
         </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
