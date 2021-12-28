@@ -10,7 +10,6 @@ sealed class ListItem {
         val endTime: String,
         val user: String = "",
     ) : ListItem()
-    
     data class Date(
         val date: String,
     ) : ListItem()
