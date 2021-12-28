@@ -6,12 +6,12 @@
     app:startDestination="@id/activityFragment">
     <fragment
         android:id="@+id/activityFragment"
-        android:name="ru.fefu.activitytracker.fragments.ActivityFragment"
+        android:name="ru.fefu.activitytracker.tracker.ActivityFragment"
         android:label="fragment_activity"
-        tools:layout="@layout/fragment_activity" />
+        tools:layout="@layout/fragment_activity"/>
     <fragment
         android:id="@+id/profileFragment"
-        android:name="ru.fefu.activitytracker.fragments.ProfileFragment"
+        android:name="ru.fefu.activitytracker.tracker.ProfileFragment"
         android:label="fragment_profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile"/>
 </navigation>
