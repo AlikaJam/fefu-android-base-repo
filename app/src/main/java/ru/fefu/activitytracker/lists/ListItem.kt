@@ -1,4 +1,4 @@
-package ru.fefu.activitytracker
+package ru.fefu.activitytracker.lists
 
 sealed class ListItem {
     data class Item(
