@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="@color/primary"
-    tools:context=".Login">
-  
+    tools:context=".main.Login">
+    
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -40,7 +40,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/toolbar"
                 app:srcCompat="@drawable/ic_registration_bycycles" />
-          
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/textLogin"
                 android:layout_width="match_parent"
@@ -51,12 +51,13 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageBicycles">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="@string/login_text" />
             </com.google.android.material.textfield.TextInputLayout>
-          
+
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/textPassword"
                 android:layout_width="match_parent"
@@ -68,7 +69,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textLogin"
                 app:passwordToggleEnabled="true">
-              
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -92,5 +93,4 @@
                 app:layout_constraintTop_toBottomOf="@+id/textPassword" />
         </LinearLayout>
     </ScrollView>
-
-</androidx.constraintlayout.widget.ConstraintLayout> 
+</androidx.constraintlayout.widget.ConstraintLayout>
