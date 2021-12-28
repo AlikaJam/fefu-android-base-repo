@@ -7,7 +7,7 @@
     android:minHeight="70dp"
     android:rotationX="-4"
     android:textAlignment="center"
-    tools:context=".WelcomeScreen">
+    tools:context=".main.WelcomeScreen">
     <ImageView
         android:id="@+id/imageBicycles"
         android:layout_width="0dp"
