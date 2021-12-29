@@ -9,8 +9,15 @@ class ViewPagerAdapter(fragmentManager: FragmentManager, lifecycle: Lifecycle) :
     override fun getItemCount(): Int = 2
     override fun createFragment(position: Int): Fragment {
         return when(position) {
-            0->{MyActivityFragment()}
-            1->{UsersActivityFragment()} else->{ActivityFragment()}
+            0->{
+                MyActivityFragment()
+            }
+            1->{
+                UsersActivityFragment()
+            }
+            else->{
+                ActivityFragment()
+            }
         }
     }
 }
