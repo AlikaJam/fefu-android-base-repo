@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:backgroundTint="@color/primary"
     tools:context=".main.Login">
-    
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
@@ -15,6 +15,7 @@
         android:onClick="back"
         app:title="@string/entrance_text"
         app:layout_constraintTop_toTopOf="parent" />
+
     <ScrollView
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -24,10 +25,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         app:layout_constraintVertical_bias="1.0">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <ImageView
                 android:id="@+id/imageBicycles"
                 android:layout_width="272sp"
@@ -76,6 +79,7 @@
                     android:hint="@string/password_text"
                     android:password="true" />
             </com.google.android.material.textfield.TextInputLayout>
+
             <Button
                 android:id="@+id/buttonEnter"
                 android:layout_width="match_parent"
@@ -93,4 +97,5 @@
                 app:layout_constraintTop_toBottomOf="@+id/textPassword" />
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
