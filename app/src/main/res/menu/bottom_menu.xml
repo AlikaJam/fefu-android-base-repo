@@ -4,6 +4,7 @@
         android:id="@+id/navigation_activity"
         android:icon="@drawable/ic_whistle_activity"
         android:title="@string/activity_text"/>
+
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_profile"
