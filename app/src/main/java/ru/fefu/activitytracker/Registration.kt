@@ -14,4 +14,4 @@ class Registration : AppCompatActivity() {
     fun back(view: View) {
         onBackPressed()
     }
-}
+} 
