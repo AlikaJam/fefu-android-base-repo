@@ -4,18 +4,14 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.PersistableBundle
 import android.widget.Toast
-
 import com.google.android.material.bottomnavigation.BottomNavigationView
-
 import ru.fefu.activitytracker.databinding.ActivityMainBinding
 import ru.fefu.activitytracker.fragments.ActivityFragment
 import ru.fefu.activitytracker.fragments.MyActivityFragment
 import ru.fefu.activitytracker.fragments.ProfileFragment
-
 import java.lang.reflect.Array.newInstance
 
 class MainActivity : AppCompatActivity() {
-
     lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
