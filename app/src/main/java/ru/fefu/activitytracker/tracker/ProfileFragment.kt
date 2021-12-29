@@ -29,7 +29,8 @@ class ProfileFragment : BaseFragment<FragmentProfileBinding>(R.layout.fragment_p
                 replace(
                     R.id.fragment_container_profile_switch,
                     ChangePasswordFragment(),
-                    "profile_change")
+                    "profile_change"
+                )
                 addToBackStack(null)
                 commit()
             }
