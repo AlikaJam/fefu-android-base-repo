@@ -4,11 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
     app:startDestination="@id/activityFragment">
+    
     <fragment
         android:id="@+id/activityFragment"
         android:name="ru.fefu.activitytracker.fragments.ActivityFragment"
         android:label="fragment_activity"
         tools:layout="@layout/fragment_activity" />
+    
     <fragment
         android:id="@+id/profileFragment"
         android:name="ru.fefu.activitytracker.fragments.ProfileFragment"
