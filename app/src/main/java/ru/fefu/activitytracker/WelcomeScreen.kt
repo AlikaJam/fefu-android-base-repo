@@ -22,4 +22,4 @@ class WelcomeScreen : AppCompatActivity() {
             startActivity(Intent(this, Login::class.java))
         }
     }
-}
+} 
