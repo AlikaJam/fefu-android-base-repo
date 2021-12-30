@@ -8,12 +8,13 @@ import androidx.room.Query
 
 @Dao
 public interface ActivityDao {
+
     @Query("SELECT * FROM ActivityRoom ORDER BY end_time DESC")
     fun getAll(): LiveData<List<ActivityRoom>>
 
     @Query("SELECT * FROM ActivityRoom WHERE id = :id")
     fun getById(id: Int): ActivityRoom
-
+    
     @Insert
     fun insert(activity: ActivityRoom)
 
