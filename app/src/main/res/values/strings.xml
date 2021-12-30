@@ -4,16 +4,15 @@
     <string name="welcome2_text">Созданный студентами 2-ого курса</string>
     <string name="button_text">Зарегистрироваться</string>
     <string name="welcome3_text">Уже есть аккаунт?</string>
-    <string name="login_text">Логин</string>
-    <string name="name_or_nickname_text">Имя или никнейм</string>
-    <string name="password_text">Пароль</string>
-    <string name="repeat_password_text">Повторите пароль</string>
-    <string name="registration_bar">Регистрация</string>
     <string name="sex_text">Пол</string>
     <string name="registration_male_text">Мужской</string>
     <string name="registration_female_text">Женский</string>
     <string name="registration_other_text">Другое</string>
-    <string name="registration_text">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности и обработки персональных данных, а также принимаете пользовательское соглашение.</string>
+    <string name="registration_text">Нажимая на кнопку, вы соглашаетесь с политикой конфиденциальности и обработки персональных данных, а также принимаете пользовательское соглашение</string>
+    <string name="password_text">Пароль</string>
+    <string name="name_or_nickname_text">Имя или никнейм</string>
+    <string name="login_text">Логин</string>
+    <string name="repeat_password_text">Повторите пароль</string>
     <string name="enter_text">Войти</string>
     <string name="entrance_text">Вход</string>
     <string name="registration2_text">Регистрация</string>
@@ -27,8 +26,6 @@
     <string name="time_for_train_text">Время потренить</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="text_comments">Комментарий</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="text_comments">Комментарий</string>
     <string name="change_password_text">Изменить пароль</string>
     <string name="events_text">Выйти</string>
     <string name="old_password_text">Старый пароль</string>
@@ -36,13 +33,13 @@
     <string name="to_accept_text">Принять</string>
     <string name="save">Сохранить</string>
     <string name="title_activity_new">NewActivity</string>
-    <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
+    
     <string name="previous">Previous</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="go_question_text">Погнали?</string>
+    <string name="go_question_text">Погнали? :)</string>
     <string name="start_text">Начать</string>
 </resources>
