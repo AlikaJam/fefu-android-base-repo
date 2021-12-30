@@ -6,6 +6,7 @@
         android:icon="@drawable/ic_remove_basket"
         app:showAsAction="always"
         android:title="" />
+
     <item
         android:id="@+id/icon_to_share"
         android:icon="@drawable/ic_to_share_icon"
