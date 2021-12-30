@@ -1,12 +1,20 @@
 package ru.fefu.activitytracker.lists
+
 class ListActivityTypes {
     private val listTypes = listOf(
         ActivityType(
-            activity = "Велосипед"),
+            activity = "Велосипед",
+            false,
+        ),
         ActivityType(
-            activity = "Бег"),
+            activity = "Бег",
+            false
+        ),
         ActivityType(
-            activity = "Шаг")
+            activity = "Шаг",
+            false
+        ),
     )
+
     fun getItem(): List<ActivityType> = listTypes
 }
