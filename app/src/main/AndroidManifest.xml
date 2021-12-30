@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ru.fefu.activitytracker">
+
     <application
         android:name=".App"
         android:allowBackup="true"
@@ -13,6 +14,7 @@
             android:name=".map.NewActivity"
             android:exported="true"
             android:label="@string/title_activity_new"
+
             android:theme="@style/Theme.Activity.NoActionBar">
         </activity>
         <activity
@@ -20,8 +22,9 @@
             android:exported="true"
             android:label="@string/title_activity_main">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
@@ -31,10 +34,11 @@
         <activity
             android:name=".main.Login"
             android:exported="true"
-            android:windowSoftInputMode="adjustResize"/>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".main.Registration"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
     </application>
+
 </manifest>
