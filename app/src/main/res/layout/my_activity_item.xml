@@ -11,14 +11,12 @@
     android:shadowColor="#000"
     android:shadowDx="30"
     android:shadowDy="60"
-    android:shadowRadius="120"
-    >
+    android:shadowRadius="120">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        >
+        android:layout_marginBottom="16dp">
 
         <TextView
             android:id="@+id/distance"
@@ -39,7 +37,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="16dp"
             android:paddingTop="4dp"
-            android:text="Duration"
+            android:text="Название"
             android:textColor="@color/black"
             android:textSize="16sp"
             card_view:layout_constraintStart_toStartOf="parent"
